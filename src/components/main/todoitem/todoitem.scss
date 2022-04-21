@@ -1,0 +1,18 @@
+input {
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+    &:hover {
+        opacity: 0.7;
+        &::placeholder {
+            color: red;
+        }
+    }
+    &::placeholder {
+        color: red;
+        padding-left: 5px;
+    }
+    &:focus {
+        color: red;
+    }
+}
